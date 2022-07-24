@@ -1,5 +1,9 @@
 import  './bootstrap.js'
 import {createApp} from 'vue'
-import App from "./components/app.vue"
+import App from "./components/App.vue"
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
 
-createApp(App).mount("#app")
+createApp(App)
+    .use(ElementPlus)
+    .mount("#app")
