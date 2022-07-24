@@ -8,6 +8,15 @@ indent_style = space
 indent_size = 4
 trim_trailing_whitespace = true
 
+# Indentation override for all JS under lib directory
+[resources/js/**.js]
+indent_style = space
+indent_size = 2
+
+[*.vue]
+indent_style = space
+indent_size = 2
+
 [*.md]
 trim_trailing_whitespace = false
 
